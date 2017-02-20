@@ -4,7 +4,7 @@ The standalone split<N> method takes two std::string iterators as input along wi
 
 ## Behavior
 
-If the delimiter occurs less than N times, empty values are returned. If the delimiter occurs more than N times, the last entry will contain the remainder of the string after the Nth delimiter. If the delimiter occurs in the provided string <=N times, the delimiter will not be present within the out values.
+If the delimiter occurs less than N times, empty values are returned. If the delimiter occurs more than N times, the last entry will contain the remainder of the string after the (N-1)th delimiter. If the delimiter occurs in the provided string <=N times, the delimiter will not be present within the output values.
 
 ## Language Support & Compilation
 
